@@ -742,21 +742,48 @@ p { margin: 0; color: var(--ink-muted); max-width: 65ch; }
 
 .fulfilment-note { font-size: 12px; }
 
-.details-block { padding: 28px 0; border-bottom: 1px solid var(--border); }
+.details-block {
+  padding: 28px;
+  margin: 28px 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
 
-.field { margin-bottom: 18px; }
+.details-block .fulfilment-label {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--ink);
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 6px;
+}
+
+.details-rule {
+  width: 32px;
+  height: 2px;
+  background: var(--gold);
+  margin-bottom: 22px;
+}
+
+.field { margin-bottom: 20px; }
 .field:last-child { margin-bottom: 0; }
 
 .field label {
   display: block;
-  font-size: 13px;
-  color: var(--ink);
-  margin-bottom: 6px;
-  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 8px;
+  font-weight: 600;
 }
 
 .optional-tag {
   font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
   color: var(--ink-muted);
 }
 
@@ -765,19 +792,31 @@ p { margin: 0; color: var(--ink-muted); max-width: 65ch; }
   width: 100%;
   border: 1px solid var(--border);
   border-radius: 6px;
-  padding: 11px 14px;
+  padding: 13px 16px;
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 15px;
   color: var(--ink);
-  background: var(--surface);
+  background: var(--bg);
   resize: vertical;
-  transition: border-color 0.15s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: rgba(20, 20, 20, 0.35);
+}
+
+.field input:hover,
+.field textarea:hover {
+  border-color: rgba(20, 20, 20, 0.22);
 }
 
 .field input:focus,
 .field textarea:focus {
   outline: none;
   border-color: var(--teal);
+  background: var(--surface);
+  box-shadow: 0 0 0 3px rgba(0, 139, 155, 0.14);
 }
 
 .field-error {
