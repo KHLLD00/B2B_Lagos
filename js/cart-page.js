@@ -277,11 +277,29 @@ downloadBtn.addEventListener('click', () => {
 });
 renderCartPage();
 
-clearCartBtn.addEventListener('click', () => {
-  if (confirm('Remove all items from your order?')) {
-    clearCart();
-    renderCartPage();
-  }
+const clearModal = document.getElementById('clear-modal');
+const modalCancel = document.getElementById('modal-cancel');
+const modalConfirm = document.getElementById('modal-confirm');
+
+function openClearModal() {
+  clearModal.hidden = false;
+  requestAnimationFrame(() => clearModal.classList.add('open'));
+}
+
+function closeClearModal() {
+  clearModal.classList.remove('open');
+  setTimeout(() => { clearModal.hidden = true; }, 200);
+}
+
+clearCartBtn.addEventListener('click', openClearModal);
+modalCancel.addEventListener('click', closeClearModal);
+clearModal.addEventListener('click', (e) => {
+  if (e.target === clearModal) closeClearModal();
+});
+modalConfirm.addEventListener('click', () => {
+  clearCart();
+  renderCartPage();
+  closeClearModal();
 });
 
 [nameInput, phoneInput, addressInput].forEach((input, i) => {
