@@ -64,6 +64,33 @@
           <p class="fulfilment-note">Delivery fee and estimated time are confirmed on WhatsApp.</p>
         </div>
 
+        <div class="details-block">
+          <p class="fulfilment-label">Your details</p>
+
+          <div class="field">
+            <label for="customer-name">Name</label>
+            <input type="text" id="customer-name" placeholder="Your full name">
+            <span class="field-error" id="error-name" hidden>Name is required.</span>
+          </div>
+
+          <div class="field">
+            <label for="customer-phone">Phone number</label>
+            <input type="tel" id="customer-phone" placeholder="e.g. 0803 123 4567">
+            <span class="field-error" id="error-phone" hidden>Phone number is required.</span>
+          </div>
+
+          <div class="field" id="address-field">
+            <label for="customer-address">Delivery address</label>
+            <textarea id="customer-address" rows="2" placeholder="Street, area, landmark"></textarea>
+            <span class="field-error" id="error-address" hidden>Delivery address is required.</span>
+          </div>
+
+          <div class="field">
+            <label for="customer-notes">Extra notes <span class="optional-tag">(optional)</span></label>
+            <textarea id="customer-notes" rows="2" placeholder="Any special requests"></textarea>
+          </div>
+        </div>
+
         <div class="checkout-actions">
           <button class="btn btn-ghost btn-block" id="download-receipt">Download receipt</button>
           <a class="btn btn-primary btn-block" id="whatsapp-send" href="#" target="_blank" rel="noopener">Send order on WhatsApp</a>

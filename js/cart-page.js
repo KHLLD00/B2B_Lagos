@@ -11,6 +11,12 @@ const clearCartBtn = document.getElementById('clear-cart');
 const whatsappBtn = document.getElementById('whatsapp-send');
 const downloadBtn = document.getElementById('download-receipt');
 
+const nameInput = document.getElementById('customer-name');
+const phoneInput = document.getElementById('customer-phone');
+const addressField = document.getElementById('address-field');
+const addressInput = document.getElementById('customer-address');
+const notesInput = document.getElementById('customer-notes');
+
 function renderCartPage() {
   const cart = getCart();
 
@@ -82,14 +88,7 @@ function bumpQtyValue(name) {
 }
 
 function updateWhatsAppLink() {
-  const cart = getCart();
-  const lines = cart.map(i => `${i.qty}x ${i.name} - ${formatNaira(i.price * i.qty)}`).join('\n');
-  const total = formatNaira(getCartTotal());
-  const message =
-    `Hi, I'd like to place an order for ${fulfilment}.\n\n` +
-    `${lines}\n\nTotal: ${total}\n\n` +
-    `I've attached my order receipt.`;
-
+  const message = "Hi, I'd like to place an order. I've attached my order receipt.";
   whatsappBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
@@ -99,6 +98,7 @@ document.querySelectorAll('.fulfilment-option').forEach(btn => {
     localStorage.setItem(FULFILMENT_KEY, fulfilment);
     document.querySelectorAll('.fulfilment-option').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
+    updateAddressVisibility();
     updateWhatsAppLink();
   });
 });
@@ -108,14 +108,60 @@ document.querySelectorAll('.fulfilment-option').forEach(btn => {
   else btn.classList.remove('active');
 });
 
+function updateAddressVisibility() {
+  addressField.hidden = fulfilment !== 'delivery';
+}
+updateAddressVisibility();
+
+function validateDetails() {
+  let valid = true;
+
+  const nameError = document.getElementById('error-name');
+  const phoneError = document.getElementById('error-phone');
+  const addressError = document.getElementById('error-address');
+
+  if (!nameInput.value.trim()) {
+    nameError.hidden = false;
+    valid = false;
+  } else {
+    nameError.hidden = true;
+  }
+
+  if (!phoneInput.value.trim()) {
+    phoneError.hidden = false;
+    valid = false;
+  } else {
+    phoneError.hidden = true;
+  }
+
+  if (fulfilment === 'delivery' && !addressInput.value.trim()) {
+    addressError.hidden = false;
+    valid = false;
+  } else {
+    addressError.hidden = true;
+  }
+
+  return valid;
+}
+
 // ---- Receipt image generation ----
 function generateReceiptImage() {
   const cart = getCart();
+  const name = nameInput.value.trim();
+  const phone = phoneInput.value.trim();
+  const address = addressInput.value.trim();
+  const notes = notesInput.value.trim();
+
+  const detailLines = [`Customer: ${name}`, `Phone: ${phone}`];
+  if (fulfilment === 'delivery') detailLines.push(`Address: ${address}`);
+  if (notes) detailLines.push(`Notes: ${notes}`);
+
   const rowHeight = 30;
   const headerHeight = 150;
+  const detailsHeight = detailLines.length * 20 + 30;
   const footerHeight = 90;
   const width = 640;
-  const height = headerHeight + cart.length * rowHeight + footerHeight + 60;
+  const height = headerHeight + detailsHeight + cart.length * rowHeight + footerHeight + 60;
 
   const canvas = document.createElement('canvas');
   canvas.width = width;
@@ -146,8 +192,17 @@ function generateReceiptImage() {
   ctx.fillStyle = '#5B5B57';
   ctx.fillText(new Date().toLocaleString('en-NG'), 90, 66);
 
-  // Divider
+  // Customer details
   let y = headerHeight;
+  ctx.font = '14px Arial';
+  ctx.fillStyle = '#141414';
+  detailLines.forEach(line => {
+    ctx.fillText(line, 40, y);
+    y += 20;
+  });
+  y += 10;
+
+  // Divider
   ctx.strokeStyle = '#141414';
   ctx.globalAlpha = 0.15;
   ctx.beginPath();
@@ -203,6 +258,8 @@ function generateReceiptImage() {
 }
 
 downloadBtn.addEventListener('click', () => {
+  if (!validateDetails()) return;
+
   const originalText = downloadBtn.textContent;
   downloadBtn.textContent = 'Generating…';
   downloadBtn.disabled = true;
@@ -225,4 +282,13 @@ clearCartBtn.addEventListener('click', () => {
     clearCart();
     renderCartPage();
   }
+});
+
+[nameInput, phoneInput, addressInput].forEach((input, i) => {
+  const errorIds = ['error-name', 'error-phone', 'error-address'];
+  input.addEventListener('input', () => {
+    if (input.value.trim()) {
+      document.getElementById(errorIds[i]).hidden = true;
+    }
+  });
 });
