@@ -1,6 +1,23 @@
 const WHATSAPP_NUMBER = '2347047009393';
 const FULFILMENT_KEY = 'b2b-fulfilment';
 
+// Preload the logo so it's ready by the time a receipt is generated
+const logoImg = new Image();
+let logoLoaded = false;
+logoImg.src = 'assets/logo.png';
+logoImg.onload = () => { logoLoaded = true; };
+
+function ensureLogoLoaded() {
+  return new Promise((resolve) => {
+    if (logoLoaded) {
+      resolve();
+    } else {
+      logoImg.onload = () => { logoLoaded = true; resolve(); };
+      logoImg.onerror = () => resolve(); // proceed without logo rather than block checkout
+    }
+  });
+}
+
 let fulfilment = localStorage.getItem(FULFILMENT_KEY) || 'pickup';
 
 const cartItemsEl = document.getElementById('cart-items');
@@ -172,19 +189,14 @@ function generateReceiptImage() {
   ctx.fillStyle = '#FAFAF7';
   ctx.fillRect(0, 0, width, height);
 
-  // Logo circle
-  ctx.fillStyle = '#008B9B';
-  ctx.beginPath();
-  ctx.arc(50, 50, 26, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.fillStyle = '#FFFFFF';
-  ctx.font = 'bold 13px Arial';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText('B2B', 50, 51);
+  // Logo
+  if (logoLoaded) {
+    ctx.drawImage(logoImg, 24, 24, 52, 52);
+  }
 
   // Title
   ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
   ctx.fillStyle = '#141414';
   ctx.font = '600 22px Georgia';
   ctx.fillText('Breakfast 2 Breakfast', 90, 44);
@@ -257,12 +269,14 @@ function generateReceiptImage() {
   return canvas.toDataURL('image/png');
 }
 
-downloadBtn.addEventListener('click', () => {
+downloadBtn.addEventListener('click', async () => {
   if (!validateDetails()) return;
 
   const originalText = downloadBtn.textContent;
   downloadBtn.textContent = 'Generating…';
   downloadBtn.disabled = true;
+
+  await ensureLogoLoaded();
 
   setTimeout(() => {
     const dataUrl = generateReceiptImage();
