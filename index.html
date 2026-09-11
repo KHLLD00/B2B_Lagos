@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B2B — Breakfast 2 Breakfast | Lagos</title>
+<meta name="description" content="B2B - Breakfast 2 Breakfast. All-day American diner in Lagos, open 24 hours. Eat in, take away, or delivery.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">B2B</span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="menu.html">Menu</a>
+      <a href="#story">Our story</a>
+      <a href="#hours">Hours &amp; location</a>
+    </nav>
+    <a href="cart.html" class="cart-link" aria-label="View cart">
+      <i class="cart-icon"></i>
+      <span class="cart-count" id="cart-count" hidden>0</span>
+    </a>
+    <a href="menu.html" class="btn btn-primary header-cta">Order online</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="serving-chip" id="serving-chip">
+        <span class="dot"></span>
+        <span id="serving-text">Checking what's on&hellip;</span>
+      </p>
+      <h1 class="hero-headline">Breakfast to breakfast,<br>day into night.</h1>
+      <p class="hero-sub">An all-day American diner in Lagos. Eggs at dawn, cocktails past midnight, and everything a diner should be in between &mdash; open every hour, every day.</p>
+      <div class="hero-actions">
+        <a href="menu.html" class="btn btn-primary">View full menu</a>
+        <a href="#story" class="btn btn-ghost">Our story</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="ribbon" aria-hidden="true">
+    <div class="ribbon-track">
+      <span>OPEN 24 HOURS</span><span>&middot;</span>
+      <span>EAT IN</span><span>&middot;</span>
+      <span>TAKE AWAY</span><span>&middot;</span>
+      <span>DELIVERY</span><span>&middot;</span>
+      <span>OPEN 24 HOURS</span><span>&middot;</span>
+      <span>EAT IN</span><span>&middot;</span>
+      <span>TAKE AWAY</span><span>&middot;</span>
+      <span>DELIVERY</span><span>&middot;</span>
+    </div>
+  </div>
+
+  <section class="categories" id="menu-preview">
+    <div class="wrap">
+      <h2>Whatever hour it is, there's a plate for it</h2>
+      <div class="category-grid">
+        <a href="menu.html#breakfast" class="category-card">
+          <div class="category-photo" aria-hidden="true"></div>
+          <h3>Breakfast &amp; brunch</h3>
+          <p>Eggs, pancakes, waffles, and French toast, served whenever you're ready for them.</p>
+        </a>
+        <a href="menu.html#burgers" class="category-card">
+          <div class="category-photo" aria-hidden="true"></div>
+          <h3>Burgers &amp; mains</h3>
+          <p>From a classic cheeseburger to The Baconator, built the diner way.</p>
+        </a>
+        <a href="menu.html#pizza" class="category-card">
+          <div class="category-photo" aria-hidden="true"></div>
+          <h3>Pizza</h3>
+          <p>Eight classics, stone-baked and simple.</p>
+        </a>
+        <a href="menu.html#dessert" class="category-card">
+          <div class="category-photo" aria-hidden="true"></div>
+          <h3>Dessert &amp; bar</h3>
+          <p>Something sweet to finish, and a full bar for dine-in evenings.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="story" id="story">
+    <div class="wrap story-inner">
+      <div class="story-copy">
+        <h2>The place to be, any time you need it to be</h2>
+        <p>B2B started with a simple idea: a diner shouldn't have to choose a time of day. Whether you're in for a 6am coffee before work or a midnight plate after a long night out, the kitchen doesn't close and the welcome doesn't change.</p>
+        <p>We serve breakfast alongside dinner, pour cocktails next to milkshakes, and keep the doors open around the clock, seven days a week &mdash; because the best diners always have.</p>
+      </div>
+      <div class="story-visual" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <section class="hours" id="hours">
+    <div class="wrap hours-inner">
+      <div class="hours-block">
+        <h2>Hours</h2>
+        <p class="hours-line">Open 24 hours, Monday &ndash; Sunday</p>
+      </div>
+      <div class="hours-block">
+        <h2>Order</h2>
+        <p class="hours-line">Pickup and delivery, all day, every day.</p>
+        <a href="menu.html" class="btn btn-primary">Start an order</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span class="logo-mark small">B2B</span>
+    <p>&copy; <span id="year"></span> B2B &mdash; Breakfast 2 Breakfast, Lagos.</p>
+  </div>
+</footer>
+
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

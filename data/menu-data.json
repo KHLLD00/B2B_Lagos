@@ -1,0 +1,1277 @@
+{
+  "restaurant": "B2B - Breakfast 2 Breakfast",
+  "note": "All prices in NGN, inclusive of 7.5% VAT and 5% consumption tax. dineInOnly items are shown as a display-only bar menu, not part of online ordering.",
+  "items": [
+    {
+      "category": "Breakfast & Brunch",
+      "name": "English Breakfast",
+      "price": 17000,
+      "description": "Bacon, choice of 2 eggs, 2 sausages, mushroom, baked beans, grilled tomatoes, toast, served with your choice of tea or black coffee",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Eggs"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Breakfast With A Twist",
+      "price": 20500,
+      "description": "Choice of fluffy buttermilk pancake, waffle, or French toast, choice of 2 eggs, bacon, 2 sausages, mushroom, baked beans, grilled tomatoes, with your choice of tea or black coffee",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Eggs"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Veggie Omelette",
+      "price": 17000,
+      "description": "Blended eggs with tomato, bell peppers, onions, mushroom, mozzarella cheese, served with seasoned sauteed potatoes & toast with your choice of tea or black coffee",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Eggs"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Egg Sandwich",
+      "price": 16000,
+      "description": "Toasted slice bread, scrambled eggs, bacon and cheddar cheese",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Eggs"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Buttermilk Pancake",
+      "price": 16500,
+      "description": "2 stack of fluffy buttermilk pancake, 2 eggs, 2 sausages and bacon served with butter and maple syrup",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Pancakes"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "S'mores Chocolate Chip Pancakes",
+      "price": 19000,
+      "description": "2 pancakes drizzled with marshmallow fluff & chocolate ganache, topped with crushed crackers, marshmallow & chocolate chips",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Pancakes"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Strawberry Banana Pancakes",
+      "price": 16000,
+      "description": "Fresh strawberries & bananas, homemade butter, maple syrup & whipped cream",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Pancakes"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Buttermilk Waffles",
+      "price": 16500,
+      "description": "Buttermilk waffle, 2 eggs, 2 sausages and bacon served with butter and maple syrup",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Waffles"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Chicken & Waffles",
+      "price": 17500,
+      "description": "Boneless chicken & waffle served with a side of butter & maple syrup",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Waffles"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Double Chocolate Waffles & Berries",
+      "price": 19500,
+      "description": "Double chocolate waffles with fresh berries, vanilla ice cream, whipped cream & chocolate sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Waffles"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Strawberry, Banana & Nutella French Toast",
+      "price": 18000,
+      "description": "Soft toast topped with Nutella, fresh strawberry & banana, crumbled granola & maple syrup",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "French Toast & Croissant"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "French Toast",
+      "price": 16500,
+      "description": "Soft toast, 2 eggs, 2 sausages and bacon served with butter, whipped cream and maple syrup",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "French Toast & Croissant"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Smashed Avocado Toast",
+      "price": 17500,
+      "description": "Creamy avocado, extra virgin olive oil, on sourdough bread, served with a side of salad and your choice of egg",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "French Toast & Croissant"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Croissant Breakfast Sandwich",
+      "price": 18500,
+      "description": "Toasted croissant stuffed with bacon, eggs & cheese served with sauteed potatoes and butter",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "French Toast & Croissant"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Eggs, Mushroom or Avocado",
+      "price": 3000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Extras"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Bacon or Sausage (2pcs)",
+      "price": 4000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Extras"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Pancakes, Waffles or French Toast",
+      "price": 5500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Extras"
+    },
+    {
+      "category": "Breakfast & Brunch",
+      "name": "Plain Croissant",
+      "price": 6000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Extras"
+    },
+    {
+      "category": "Tacos",
+      "name": "Chicken Tacos",
+      "price": 14000,
+      "description": "Grilled chicken served in flour tortilla topped with classic salsa & sour cream",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Tacos",
+      "name": "Prawn Tacos",
+      "price": 15500,
+      "description": "Crispy prawns served in flour tortilla with classic salsa & sour cream",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Tacos",
+      "name": "Shredded Beef Tacos",
+      "price": 14500,
+      "description": "Shredded beef, cheese, lettuce & onion served in flour tortilla with homemade Big Mac sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Soul Food",
+      "name": "O.G Mac & Cheese",
+      "price": 15500,
+      "description": "Macaroni, our mix of cheese topped with cream and more cheese",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Soul Food",
+      "name": "Chicken Mac & Cheese",
+      "price": 20000,
+      "description": "Macaroni, our mix of cheese topped with cream, cheese and chicken",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Soul Food",
+      "name": "Prawns Mac & Cheese",
+      "price": 25000,
+      "description": "Macaroni, our mix of cheese topped with cream, cheese and prawns",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Soul Food",
+      "name": "Angry Mac",
+      "price": 22000,
+      "description": "Macaroni, French fries, our mix of cheese, spicy cream, chicken and more cheese",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Melts",
+      "name": "Chicken Melt",
+      "price": 15000,
+      "description": "Grilled chicken, mozzarella, feta cheese, onions, tomato and cocktail sauce served with a choice of French fries or salad",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Melts",
+      "name": "Prawns Pesto Melt",
+      "price": 17000,
+      "description": "Prawns, mozzarella, feta cheese, pesto sauce, tomato and cocktail sauce served with a choice of French fries or salad",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Melts",
+      "name": "Shredded Beef Pesto Melt",
+      "price": 16500,
+      "description": "Beef fillet, red pepper, tomato, caramelized onion, mozzarella, feta cheese, pesto sauce and cocktail sauce served with a choice of French fries or salad",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Melts",
+      "name": "Croque Monsieur",
+      "price": 15000,
+      "description": "Mozzarella, cheddar, and ham served with a choice of French fries or salad",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Burgers",
+      "name": "Cheese Burger",
+      "price": 16000,
+      "description": "Grilled juicy beef patty, lettuce, tomato, onion, cheese, with our homemade burger sauce served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Burgers",
+      "name": "The Baconator",
+      "price": 24000,
+      "description": "Double grilled juicy beef patty, triple cheese, double layers of bacon with our homemade burger sauce served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Burgers",
+      "name": "Crispy Chicken Burger",
+      "price": 17000,
+      "description": "Deep fried chicken breast, lettuce, cheese, with homemade aioli sauce and sweet chili sauce served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Burgers",
+      "name": "Double Double Animal Style",
+      "price": 22000,
+      "description": "Double beef patty, double cheese, pickles, onions, jalapeno served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Burgers",
+      "name": "Fried Chicken Bun Bacon Cheese Burger",
+      "price": 29000,
+      "description": "Grilled juicy beef patty, deep fried chicken bun, caramelized onions, bacon, cheese with our homemade burger sauce served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Cheesy Loaded Nachos",
+      "price": 18000,
+      "description": "Nacho chips, onion, garlic, jalapeno, cilantro, tomato, beef, mozzarella, cheddar",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Honey Siracha Chicken Tenders",
+      "price": 14000,
+      "description": "Deep fried chicken tenders tossed in honey siracha sauce served with blue cheese sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Twisted Bang Bang Prawns",
+      "price": 21000,
+      "description": "Deep fried prawns coated in a crispy coating, served with our take on bang bang sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Chicken Wings And Chips",
+      "price": 16000,
+      "description": "Deep fried chicken wings served with B.B.Q. or sweet chilli sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Spring Rolls (Beef or Chicken)",
+      "price": 8000,
+      "description": "Chicken or beef, cabbage, carrot, bell peppers served with chilli sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Beef Or Chicken Suya",
+      "price": 9000,
+      "description": "Thinly sliced beef or chicken, onions, our mix of suya spices served with onions and tomatoes",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Chicken Popcorn",
+      "price": 8000,
+      "description": "Deep fried chicken bites coated with crispy batter served with sweet chilli sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Cheesy Garlic Bread",
+      "price": 8500,
+      "description": "Toasted baguette bread, our mix of garlic and herbs, topped with mozzarella cheese",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Corn Dogs",
+      "price": 9000,
+      "description": "3pcs of chicken sausages with special homemade batter served with our cocktail sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Fried Calamari",
+      "price": 10000,
+      "description": "Deep fried baby calamari, served with lemon and tartar sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Starters",
+      "name": "Chicken Nuggets And Chips",
+      "price": 12000,
+      "description": "5pcs of homemade chicken nuggets served with French fries and ketchup",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Salads",
+      "name": "Chicken Caesar Salad",
+      "price": 19000,
+      "description": "Our take on the classic Caesar salad with iceberg lettuce, grilled chicken and parmesan cheese served with Caesar dressing",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Salads",
+      "name": "Prawns Avocado Salad",
+      "price": 24000,
+      "description": "Iceberg lettuce, large prawns, cherry tomato served with cocktail sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Salads",
+      "name": "Club Sandwich Salad",
+      "price": 22000,
+      "description": "Iceberg lettuce, ham, chicken breast, egg, cheddar cheese, tomato and croutons served with light ranch dressing",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Special Chicken Suya Sandwich",
+      "price": 17000,
+      "description": "Chicken suya, ham, mozzarella cheese, coleslaw served with French fries and coleslaw",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Steak Frites Sandwich",
+      "price": 18500,
+      "description": "Beef fillet, thinly sliced chips, caramelised onions, mayonnaise, cheese and rocket served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Elote Hotdog",
+      "price": 11000,
+      "description": "Hot dog wiener, siracha, mayo, chives and our take on elote mix served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Hot Dog Sandwich",
+      "price": 9500,
+      "description": "Hot dog wiener, hot dog bun, ketchup, mayo and mustard served with French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Nashville Hot Chicken Sandwich",
+      "price": 16000,
+      "description": "Deep fried chicken breast, spicy oil, coleslaw, pickles and ranch sauce served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Chicken Quesadillas",
+      "price": 17000,
+      "description": "Grilled chicken, tortilla bread, mixed cheese, green and red pepper served with guacamole sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "B2B Club Sandwich",
+      "price": 17000,
+      "description": "Slice bread, chicken, eggs, cheese, ham, lettuce, tomato, mayonnaise served with coleslaw and French fries",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Maestro Wrap",
+      "price": 17000,
+      "description": "Grilled chicken, lettuce, tomato, pickles, mozzarella cheese on a tortilla bread topped with our homemade aioli sauce served with French fries and coleslaw",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Philly Cheese Steak Sandwich",
+      "price": 18000,
+      "description": "Thinly sliced beef fillet, green pepper, red pepper, mushroom, mixed cheese served with French fries and coleslaw",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Ham And Cheese",
+      "price": 16000,
+      "description": "Ham, cheese, lettuce, tomato, pickles served with fries and coleslaw",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Sandwiches & Wraps",
+      "name": "Quesadilla Taco Muffin",
+      "price": 21000,
+      "description": "Cheese stuffed tortilla bread, topped with minced meat, cheese, rice, sour cream, tomato and jalapeno",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Stir Fry & Rice",
+      "name": "Stir Fry Chicken Rice Noodles",
+      "price": 12000,
+      "description": "Shredded chicken, sausage, rice noodles, bell peppers, spring onions",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Stir Fry & Rice",
+      "name": "Stir Fry Shredded Beef Rice Noodles",
+      "price": 13000,
+      "description": "Shredded beef, rice noodles, bell peppers, carrot, onions",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Stir Fry & Rice",
+      "name": "Smokey Jollof Rice And Chicken",
+      "price": 14000,
+      "description": "Smokey lightly spiced jollof rice served with grilled chicken thigh and coleslaw",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Stir Fry & Rice",
+      "name": "Smokey Jollof Rice And Goat Meat",
+      "price": 15000,
+      "description": "Smokey lightly spiced jollof rice served with grilled tender goat meat",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Pizza",
+      "name": "Margherita",
+      "price": 14000,
+      "description": "Tomato sauce, mozzarella cheese and basil leaf",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Pizza",
+      "name": "Pepperoni",
+      "price": 17000,
+      "description": "Tomato sauce, pepperoni, and mozzarella cheese",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Pizza",
+      "name": "Royal",
+      "price": 17000,
+      "description": "Tomato sauce, mozzarella cheese, ham, black olives, mushroom and sweet corn",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Pizza",
+      "name": "Vegetarian",
+      "price": 16000,
+      "description": "Tomato sauce, mushroom, mozzarella cheese, green and red pepper, black olives and sweet corn",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Pizza",
+      "name": "Four Cheese",
+      "price": 16000,
+      "description": "Tomato sauce, mozzarella cheese, cheddar cheese, blue cheese, and feta cheese",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Pizza",
+      "name": "Chicken Pizza",
+      "price": 17000,
+      "description": "Tomato sauce, mozzarella cheese, grilled chicken, green pepper, red pepper, mushroom",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Pizza",
+      "name": "Pizza Napolitana",
+      "price": 17000,
+      "description": "Tomato sauce, mozzarella cheese, anchovies, black olives",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Pizza",
+      "name": "Wakiki",
+      "price": 16500,
+      "description": "Tomato sauce, mozzarella cheese, ham, pineapple",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Main Courses",
+      "name": "Fish & Chips",
+      "price": 22000,
+      "description": "Deep fried croaker fish fillet served with French fries, tartar sauce and sauteed vegetables",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Main Courses",
+      "name": "Grilled Chicken And Chips",
+      "price": 16000,
+      "description": "Grilled chicken breast served with French fries, spicy tomato sauce and sauteed vegetables",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Main Courses",
+      "name": "Chicken Escaloppe",
+      "price": 19000,
+      "description": "Flattened chicken breast topped with bechamel sauce and mozzarella cheese served with French fries or sauteed potatoes",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Main Courses",
+      "name": "Spaghetti Beef Balls",
+      "price": 15000,
+      "description": "Spaghetti with homemade tomato sauce and beef balls served with parmesan cheese",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Main Courses",
+      "name": "Prawns Spaghetti",
+      "price": 23000,
+      "description": "Spaghetti in a creamy tomato sauce served with large prawns and parmesan cheese",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Main Courses",
+      "name": "Beef Brochette",
+      "price": 22000,
+      "description": "Beef skewers served on sourdough bread topped with our homemade gravy sauce, served with fries or sauteed potatoes",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Main Courses",
+      "name": "Chicken Brochette",
+      "price": 20000,
+      "description": "Chicken skewers served on sourdough bread with your choice of gravy or aioli sauce and your choice of French fries or sauteed potatoes",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Dessert",
+      "name": "Pain Perdu",
+      "price": 9000,
+      "description": "French toast bread, caramel, sugar, cinnamon, served with vanilla ice cream and caramel sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Dessert",
+      "name": "Banana Split",
+      "price": 8000,
+      "description": "3 scoops of ice cream, banana, whipped cream, and chocolate sauce",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Dessert",
+      "name": "Ice Cream (3 scoops)",
+      "price": 5000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false
+    },
+    {
+      "category": "Drinks",
+      "name": "Soft Drinks",
+      "price": 2000,
+      "description": "Pepsi, Mirinda, 7Up, Soda, Tonic, Bitter Lemon, or Pepsi Light",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Soft Drinks"
+    },
+    {
+      "category": "Drinks",
+      "name": "Juice",
+      "price": 2000,
+      "description": "Pineapple, apple, or orange",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Juices"
+    },
+    {
+      "category": "Drinks",
+      "name": "Fresh Juice",
+      "price": 6500,
+      "description": "Orange or pineapple",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Juices"
+    },
+    {
+      "category": "Drinks",
+      "name": "Cranberry Juice",
+      "price": 3000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Juices"
+    },
+    {
+      "category": "Drinks",
+      "name": "Energy Drink",
+      "price": 5500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Other"
+    },
+    {
+      "category": "Drinks",
+      "name": "Small Water",
+      "price": 1500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Other"
+    },
+    {
+      "category": "Drinks",
+      "name": "Perrier",
+      "price": 5000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Other"
+    },
+    {
+      "category": "Drinks",
+      "name": "Milkshake",
+      "price": 10000,
+      "description": "Chocolate, vanilla, or strawberry",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Milkshakes & Smoothies"
+    },
+    {
+      "category": "Drinks",
+      "name": "Oreo Milkshake",
+      "price": 11500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Milkshakes & Smoothies"
+    },
+    {
+      "category": "Drinks",
+      "name": "Banana And Strawberry Smoothie",
+      "price": 11000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Milkshakes & Smoothies"
+    },
+    {
+      "category": "Drinks",
+      "name": "Strawberry, Banana And Mango Smoothie",
+      "price": 12000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Milkshakes & Smoothies"
+    },
+    {
+      "category": "Drinks",
+      "name": "Espresso",
+      "price": 4000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Double Espresso",
+      "price": 5500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Cappuccino",
+      "price": 6000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Frappuccino",
+      "price": 7000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Latte",
+      "price": 6000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Flavoured Latte",
+      "price": 6500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Macchiato",
+      "price": 6000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Americano",
+      "price": 5000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Tea Selection",
+      "price": 5000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Drinks",
+      "name": "Hot Chocolate",
+      "price": 6000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": false,
+      "subcategory": "Tea & Coffee"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Heineken Can",
+      "price": 5500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Beer"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Star",
+      "price": 4500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Beer"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Budweiser",
+      "price": 4500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Beer"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Small Stout",
+      "price": 4500,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Beer"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Malibu Sunset",
+      "price": 11000,
+      "description": "Malibu, orange juice, pineapple juice, grenadine",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Mojito",
+      "price": 11000,
+      "description": "White rum, mint leaf, lime, brown sugar, soda water",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Long Island Iced Tea",
+      "price": 12000,
+      "description": "Vodka, rum, tequila, gin, triple sec, lime, coke",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Frozen Margarita",
+      "price": 11000,
+      "description": "Tequila, Cointreau, lime juice",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Frozen Strawberry Daiquiri",
+      "price": 11000,
+      "description": "Rum, strawberry liqueur, triple sec",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Cosmopolitan",
+      "price": 11000,
+      "description": "Vodka, triple sec, cranberry juice",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Pina Colada",
+      "price": 11000,
+      "description": "White rum, triple sec, coconut cream, milk, pineapple juice",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Virgin Fruit Daiquiri",
+      "price": 9000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Mocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Brazilian Lemonade",
+      "price": 9000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Mocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Virgin Mojito",
+      "price": 9000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Mocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Chapman",
+      "price": 9000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Mocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Virgin Pina",
+      "price": 9000,
+      "description": "",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Mocktails"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Hennessy V.S.",
+      "price": 15000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cognac",
+      "bottlePrice": 175000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Martel V.S.",
+      "price": 9500,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Cognac",
+      "bottlePrice": 125000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Macallan",
+      "price": 11000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Whisky",
+      "bottlePrice": 157500
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Chivas 12yrs",
+      "price": 8000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Whisky",
+      "bottlePrice": 80000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Nikka Whisky",
+      "price": 18000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Whisky",
+      "bottlePrice": 162500
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Jack Daniels",
+      "price": 8000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Whisky",
+      "bottlePrice": 80000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Black Label",
+      "price": 9000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Whisky",
+      "bottlePrice": 105000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Jameson",
+      "price": 8000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Whisky",
+      "bottlePrice": 80000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Red Label",
+      "price": 4000,
+      "description": "Shot only",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Whisky"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Sky",
+      "price": 5000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits",
+      "bottlePrice": 45000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Absolut",
+      "price": 6000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits",
+      "bottlePrice": 50000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Grey Goose",
+      "price": 12000,
+      "description": "Shot price shown; bottle available",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits",
+      "bottlePrice": 150000
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Hendricks",
+      "price": 8000,
+      "description": "Shot only",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Bombay Sapphire",
+      "price": 3000,
+      "description": "Shot only",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Jose Cuervo",
+      "price": 4000,
+      "description": "Shot only",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Bacardi White",
+      "price": 3500,
+      "description": "Shot only",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Cointreau",
+      "price": 4500,
+      "description": "Shot only",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Campari",
+      "price": 3000,
+      "description": "Shot only",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Baileys",
+      "price": 4000,
+      "description": "Shot only",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Spirits"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Frontera (Red)",
+      "price": 32000,
+      "description": "Bottle",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Wines"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Carlo Rossi (Red)",
+      "price": 25000,
+      "description": "Bottle",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Wines"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "House Red Wine (Glass)",
+      "price": 9000,
+      "description": "By the glass",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Wines"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Frontera (White)",
+      "price": 32000,
+      "description": "Bottle",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Wines"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Carlo Rossi (White)",
+      "price": 25000,
+      "description": "Bottle",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Wines"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "House White Wine (Glass)",
+      "price": 9000,
+      "description": "By the glass",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Wines"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Carlo Rossi (Rose)",
+      "price": 32000,
+      "description": "Bottle",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Wines"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "House Rose Wine (Glass)",
+      "price": 9000,
+      "description": "By the glass",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Wines"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Moet & Chandon Brut",
+      "price": 210000,
+      "description": "Bottle",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Champagne"
+    },
+    {
+      "category": "Bar Menu",
+      "name": "Moet & Chandon Nectar Rose",
+      "price": 295000,
+      "description": "Bottle",
+      "image": "placeholder.jpg",
+      "dineInOnly": true,
+      "subcategory": "Champagne"
+    }
+  ]
+}
